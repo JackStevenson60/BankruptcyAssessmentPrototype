@@ -1,13 +1,13 @@
 import streamlit as st
 import datetime
 
-st.set_page_config(page_title="Bankruptcy Assessment Chatbot")
+st.set_page_config(page_title="Bankruptcy Assessment Tool")
 
 # --- Title ---
-st.title("Bankruptcy Assessment Chatbot")
+st.title("Bankruptcy Assessment Tool")
 st.write("""
 Are you contemplating filing for bankruptcy? Take this brief assessment to see if you would be a good candidate for bankruptcy.  
-If you answer “yes” to more than **7 questions**, you should consider contacting an attorney to discuss filing for bankruptcy.
+Disclaimer: The use of the Bankruptcy Assessment Tool is not a substitute for legal advice from a licensed attourney.
 """)
 st.write("Please answer the following questions:")
 
@@ -124,3 +124,4 @@ if st.button("Submit Assessment"):
     )
 
     st.success("Assessment complete. You may download your results file now.")
+
