@@ -8,7 +8,7 @@ st.title("Bankruptcy Assessment Tool")
 st.write("""
 Are you contemplating filing for bankruptcy? Take this brief assessment to see if you would be a good candidate for bankruptcy.  
 
-Disclaimer: The use of the Bankruptcy Assessment Tool is not a substitute for legal advice from a licensed attourney.
+Disclaimer: The use of the Bankruptcy Assessment Tool is not a substitute for legal advice from a licensed attorney.
 """)
 st.write("Please answer the following questions:")
 
@@ -20,7 +20,7 @@ script_questions = [
 
     {"id": "q3", "text": "Do you own one vehicle worth up to $7,000?"},
 
-    {"id": "q4", "text": "Do you have a job that pays you? (e.g. salaries, bonueses, commissions, wages)"},
+    {"id": "q4", "text": "Do you have a job that pays you? (e.g. salaries, bonuses, commissions, wages)"},
 
     {"id": "q5", "text": "Do you plan to keep a job?"},
 
@@ -116,4 +116,5 @@ if st.button("Submit Assessment"):
     )
 
     st.success("Assessment complete. You may download your results file now.")
+
 
